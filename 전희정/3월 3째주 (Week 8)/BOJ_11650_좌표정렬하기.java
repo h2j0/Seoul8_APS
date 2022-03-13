@@ -18,11 +18,12 @@ public class BOJ_11650_좌표정렬하기 {
 		}
 
 		Arrays.sort(numArr, new Comparator<int[]>() {
-
 			@Override
 			public int compare(int[] o1, int[] o2) {
+				// 0번째 값이 같을 때 1번째 값으로 크기 비교한다
 				if (o1[0] == o2[0])
 					return Integer.compare(o1[1], o2[1]);
+				// 0번째 값으로 크기 비교
 				return Integer.compare(o1[0], o2[0]);
 			}
 		});
