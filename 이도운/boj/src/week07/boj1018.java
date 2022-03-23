@@ -1,4 +1,4 @@
-package week08;
+package week07;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -28,10 +28,7 @@ public class boj1018 {
 				}
 			}
 		}
-		
-		int[] subB = new int[(n-8+1)*(m-8+1)];
-		int[] subW = new int[(n-8+1)*(m-8+1)];
-		
+				
 		int minV = n*m+1; 
 	
 		for (int i=0; i<n-8+1; i++) {
@@ -43,7 +40,6 @@ public class boj1018 {
 						disB += (((r+c)%2)==Board[i+r][j+c])?0:1;
 						disW += (((r+c+1)%2)==Board[i+r][j+c])?0:1;
 					}
-					
 				}
 				minV = (disB<minV)?disB:minV;
 				minV = (disW<minV)?disW:minV;
