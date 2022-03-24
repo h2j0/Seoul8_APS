@@ -1,4 +1,4 @@
-package week07;
+package week06;
 import java.util.Scanner;
 
 public class boj2231 {public static void main(String[] args) {
