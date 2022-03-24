@@ -20,7 +20,5 @@ public class boj11050 {
 			ans /= (i + 1);
 		}
 		System.out.println(ans);
-
 	}
-
 }
