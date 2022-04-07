@@ -25,7 +25,6 @@ public class BOJ_11047_동전0 {
 		}
 		Arrays.sort(coin, Collections.reverseOrder());
 
-//		System.out.println(Arrays.toString(coin));
 		minCnt = K;
 		for (int i = 0; i < N; i++) {
 			findCnt(0, i, K);
@@ -34,13 +33,18 @@ public class BOJ_11047_동전0 {
 	}// main
 
 	private static void findCnt(int cnt, int idx, int target) {
+		// 동전이 내 목표 금액보다 크면 종료
 		if (coin[idx] > target) {
 			return;
 		}
+		// 동전 배열 끝까지 돌건데
 		while (idx < N) {
+			// 돌다가 minCnt보다 cnt가 커지거나 / 목표 금액 도달하면 빠져나가
 			if (cnt > minCnt || target == 0)
 				break;
+			// 동전 갯수 더해주고
 			cnt += target / coin[idx];
+			// 목표금액 변경됨
 			target = target % coin[idx];
 			idx++;
 		}
