@@ -4,6 +4,18 @@
 >
 > > (Even if I knew that tomorrow the world would go to pieces, I would still plant my grass.)
 
+### 220421 (Week 13) 
+
+- 1676 팩토리얼 0의 개수
+
+- 1927 최소 힙
+
+- 11279 최대 힙
+
+- 10026 적록색약
+
+- 7569 토마토
+
 ### 220414 (Week 12) 
 
 - 	7576	토마토
