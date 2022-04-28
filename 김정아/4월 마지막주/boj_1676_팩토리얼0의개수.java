@@ -16,7 +16,7 @@ public class boj_1676_팩토리얼0의개수 {
 		//
 		
 		int cnt = 0;
-		for(int div = 5; (N/div)>0; div = div*5) { 
+		for(int div = 5; (N/div)>0; div = div*5) {  //div는 5로 초기값 설정해주고 5로 나눳을 때 0보다 크면 계속 반복/ div에는 5곱한값 저장해주고
 			cnt = cnt + N/div;
 		}
 		
