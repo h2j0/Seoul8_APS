@@ -41,12 +41,13 @@ public class boj_14500_테트로미노 {
 				poliomino(i, j, 0, 0);
 //				trouble(i, j);
 				powerset(i, j, 0);
+
 			}
 		}
 //		System.out.println(max);
 //		System.out.println(tetromino);
 		int res = Math.max(max, tetromino);
-		
+		System.out.println(res);
 
 //		System.out.println(tetromino);
 //		powerset(0, 0, 0);
