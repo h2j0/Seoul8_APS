@@ -4,16 +4,21 @@
 >
 > > (Even if I knew that tomorrow the world would go to pieces, I would still plant my grass.)
 
+### 220428 (Week 14) 
+
+- 1992	쿼드트리
+- 11403	경로찾기
+- 14500	테트로미노
+- 1764	듣보잡
+- 1074	Z
+- 5430	AC
+
 ### 220421 (Week 13) 
 
 - 1676 팩토리얼 0의 개수
-
 - 1927 최소 힙
-
 - 11279 최대 힙
-
 - 10026 적록색약
-
 - 7569 토마토
 
 ### 220414 (Week 12) 
